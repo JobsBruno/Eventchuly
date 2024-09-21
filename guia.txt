@@ -1,0 +1,5 @@
+Linhas de codigo para rodar o projeto retirado do git
+
+1. composer update dentro do arquivo
+2. php artisan migrate para rodar o banco de dados
+3. PA serve

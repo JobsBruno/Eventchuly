@@ -11,7 +11,7 @@ use App\Http\Controllers\EventosController;
 //Qualquer pagina que você queira VIZUALIZAR use o route::get
 Route::get('/',[EventosController::class,'MostrarHome'])->name('homeadm');
 Route::get('/altera-evento',[EventosController::class,'MostrarEventoCodigo'])->name('altera-evento');
-Route::get('/cadastroevento',[EventosController::class,'MostrarCadastroEvento'])->name('cadastroevento');
+Route::get('/cadastroevento'/*Url para acessar a rota*/ ,[EventosController::class,'MostrarCadastroEvento'])->name /*nome da rota*/('cadastroevento');  
 Route::get('/listaevento',[EventosController::class,'MostrarEventoNome'])->name('listaevento');
 
 //create
